@@ -1,7 +1,7 @@
 package notificationSystem;
 
 public class BasicChannel implements Channel {
-    protected String channelName
+    protected String channelName;
     @Override
     public void sendNotification(Notification notification) {
         System.out.println(notification.getMessage());
