@@ -1,9 +1,6 @@
 package notificationSystem;
 
-public class PushNotificationDeco extends NotifChannelCreator {
-    public PushNotificationDeco(INotif notif) {
-        super(notif);
-    }
+public class PushNotificationDeco implements INotif {
 
     @Override
     public void sendNotification(Notification notification) {

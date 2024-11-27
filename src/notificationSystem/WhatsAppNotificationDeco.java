@@ -1,9 +1,6 @@
 package notificationSystem;
 
-public class WhatsAppNotificationDeco extends NotifChannelCreator {
-    public WhatsAppNotificationDeco(INotif notif) {
-        super(notif);
-    }
+public class WhatsAppNotificationDeco implements INotif {
 
     @Override
     public void sendNotification(Notification notification) {
