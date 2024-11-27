@@ -3,7 +3,8 @@ package notificationSystem;
 public class Main {
     public static void main(String[] args) {
         //general notification
-        Notification maintenance = new Notification("Maintenance is scheduled for 3:00 AM CST");
+        Notification maintenance = new Notification("Maintenance is scheduled for 3:00 AM CST and " +
+                "is expected to last for 2 hours.");
 
         //initialize the channels
         ModifyChannelPreferences mcp = new ModifyChannelPreferences();
